@@ -6,7 +6,7 @@ class Solution {
         int arr[][] = new int[nums.length/3][3];
         // int tem[][] = {};
         for(int i=0; i<nums.length; i+=3) {
-            if(nums[i+1]-nums[i]<=k && nums[i+2]-nums[i+1]<=k) {
+            if(nums[i+1]-nums[i]<=k && nums[i+2]-nums[i+1]<=k && nums[i+2]-nums[i]<=k) {
                 int temp[] = {nums[i], nums[i+1], nums[i+2]};
                 arr[i/3] = temp;
             }else{
