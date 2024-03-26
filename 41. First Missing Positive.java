@@ -8,7 +8,7 @@ class Solution {
         }
         for(int i=0;i<n;i++) {
             int ind = Math.abs(nums[i]) - 1;
-            if(ind < 0 || ind >= nums.length) continue; // out of bound index
+            if(ind < 0 || ind >= nums.length) continue;
             if(nums[ind] > 0) {
                 nums[ind] *= -1;
             } else if(nums[ind] == 0) {
