@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/TUFF GAMING/Desktop/Git LeetCode/leetcode.longing",
-      "program": "c:/Users/TUFF GAMING/Desktop/Git LeetCode/leetcode.longing/build/Debug/outDebug",
+      "cwd": "d:/Desktop Shortcuts/Git LeetCode/leetcode.longing",
+      "program": "d:/Desktop Shortcuts/Git LeetCode/leetcode.longing/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
